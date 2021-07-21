@@ -1,0 +1,46 @@
+
+*{
+    margin:10px;
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, Baskerville,"Courier New", "Times New Roman";
+}
+#timing{
+    font-weight: 400;
+    list-style-type: none;
+    font-family: rial, "Arial Black", Verdana, "Trebuchet MS",Georgia, Tahoma, "Courier New", "Times New Roman";
+}
+#headingsection{
+    margin-top: 30px;
+}
+h1{
+    color:#A4A400;
+    text-decoration: underline;
+    background-color: #F0F0F0;
+    font-family: "Lucida Sans Unicode", Helvetica, Arial, "Arial Black", Verdana, "Trebuchet MS",Georgia, Tahoma, "Courier New", "Times New Roman";
+}
+#headingId{
+    text-align: center;
+    font-size: 22px;
+}
+.otherHeadings{
+    text-align: left;
+    font-size: 18pt;
+    font-style: normal;
+}
+.bottomright{
+    text-align: right;
+    margin-right: 20px;
+}
+span{
+    font-weight: 600;
+}
+.quotation{
+    background-color: #f9e79f;
+    margin-top: 10px;
+    font-style: italic;
+}
+.links{
+    color:goldenrod;
+}
