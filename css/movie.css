@@ -1,10 +1,4 @@
 
-/*
-    This the CSS code which affects the look-like of the 
-    HTML page tmnt.html. It has used images, text and other 
-    decorations to format the background, forground and dimensions
-    of the HTML elements in the page.
-*/
 
 body{
     background-image: url("../images/background.png");
@@ -24,9 +18,9 @@ dt{
     width:65%;
     height:40px;
     position: absolute;
-    top: 1182px;
-    right:245px;
-    border-radius: 20px;
+    top: 1248px;
+    right:285px;       
+    border-radius: 25px;
     background-color: #A2B964;
 }
 #pageIndex{
@@ -39,7 +33,7 @@ dt{
     margin: auto;
     border: 4px gray solid;
     width:70%;
-    min-height: 1090px;
+    min-height: 1120px;
     border-radius: 20px;
 }
 #imageContainer{
