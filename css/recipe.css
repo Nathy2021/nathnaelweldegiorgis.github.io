@@ -29,8 +29,8 @@ h1{
     font-size: 18pt;
     font-style: normal;
 }
-.bottomright{
-    text-align: right;
+.bottomleft{
+    text-align: left;
     margin-right: 20px;
 }
 span{
