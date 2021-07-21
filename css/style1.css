@@ -12,22 +12,26 @@ span{
     margin-bottom: 20px;
 }
 #header1{
-    background-color:#f9e79f;
+    background-color:#52514f;
 }
 .describe{
     font-style: italic;
 }
+body {
+    background-color: rgb(144, 153, 156);
+  }
+   
 
 h3{
     font-style: unset;
     font-weight: bold;
     font-family: Arial, "Arial Black", Verdana, "Trebuchet MS",Georgia, Tahoma, "Courier New", "Times New Roman";
-    background-color:seagreen;
+    background-color:rgb(29, 31, 29);
     color:white;
-    width: 240px;
-    height: 21px;
+    width: 270px;
+    height: 30px;
     margin-top: 5px;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 h1{
     color:olivedrab;
