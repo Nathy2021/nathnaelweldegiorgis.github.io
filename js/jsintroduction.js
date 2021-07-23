@@ -42,9 +42,9 @@ const product = (arr) => {
 
 function reverse(str) {
 
-    var splitString = str.split(""); // var splitString = "hello".split("");
+    var splitString = str.split("");
     var reverseArray = splitString.reverse();
-    var joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
+    var joinArray = reverseArray.join("");
 
     return joinArray;
 }
