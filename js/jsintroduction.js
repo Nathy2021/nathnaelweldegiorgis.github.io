@@ -117,3 +117,10 @@ console.log("Expected output of findLongestWord(['ab11','abc112278','abcd34','ab
 console.log("Expected output of filterLongWords(['ab','abc','abcd','abcde']) is ['abcd','abcde'] " + myFunctionTest('abcd,abcde', filterLongWords(['ab', 'abc', 'abcd', 'abcde'], 3).toString()));
 console.log("Expected output of filterLongWords(['ab','abc1','abcd1','abcde1']) is ['abc1','abcd1','abcde1'] " + myFunctionTest(['abcd1', 'abcde1'], filterLongWords(['ab', 'abc1', 'abcd1', 'abcde1'], 3)));
 
+console.log("Expected output of multiplyBy10([1,3,5,3,3],10) is [10,30,50,30,30] " + myFunctionTest([10, 30, 50, 30, 30].toString(), multiplyBy10([1, 3, 5, 3, 3], 10).toString()));
+console.log("Expected output of multiplyBy10([1,3,5,3,3],10) is [1,30,50,30,30] " + myFunctionTest([1, 30, 50, 30, 30], multiplyBy10([1, 3, 5, 3, 3], 10)));
+console.log("Expected output of elementsEqualTo([1,3,5,3,3],3) is [3,3,3] " + myFunctionTest([3, 3, 3].toString(), elementsEqualTo([1, 3, 5, 3, 3], 3).toString()));
+console.log("Expected output of elementsEqualTo([1,3,5,3,3],3) is [5,3,1]" + myFunctionTest([5, 3, 1], elementsEqualTo([1, 3, 5, 3, 3], 3)));
+
+console.log("Expected output of productOfAllElements([1,3,5,3,3]) is [135] " + myFunctionTest(135, productOfAllElements([1, 3, 5, 3, 3])));
+console.log("Expected output of productOfAllElements([1,3,5,3,3]) is [140] " + myFunctionTest(140, productOfAllElements([1, 3, 5, 3, 3])));
