@@ -102,11 +102,11 @@ console.log("Expected output of maxOfThree(55,4,44) is 55  " + myFunctionTest(4,
 console.log("Expected output of checkVowel('0') is true " + myFunctionTest(true, isVowel('o')));
 console.log("Expected output of checkVowel('x') is false " + myFunctionTest(false, isVowel('x')));
 
-console.log("Expected output of product([1,2,3,4,5]) is 15 " + myFunctionTest(15, sum([1, 2, 3, 4, 5])));
-console.log("Expected output of product([1,2,3,4,5,6]) is 15" + myFunctionTest(17, sum([1, 2, 3, 4, 5, 6])));
+console.log("Expected output of product([1,2,3,4,5]) is 15 " + myFunctionTest(150, sum([10, 20, 30, 40, 50])));
+console.log("Expected output of product([1,2,3,4,5,6]) is 15" + myFunctionTest(170, sum([10, 20, 30, 40, 50, 60])));
 
 console.log("Expected output of product([1,2,3,4,5]) is 120 " + myFunctionTest(120, product([1, 2, 3, 4, 5])));
-console.log("Expected output of product([1,2,3,4,5,6]) is 120" + myFunctionTest(520, product([1, 2, 3, 4, 5, 6])));
+console.log("Expected output of product([1,2,3,4,5,6]) is 120" + myFunctionTest(620, product([1, 2, 3, 4, 5, 6])));
 
 console.log("Expected output of reverse('Hello Java Script') is <tpircS avaJ olleH> " + myFunctionTest('tpircS avaJ olleH', reverse('Hello Java Script')));
 console.log("Expected output of reverse('Hello Java Script') is <tpircS avaJ olleH>" + myFunctionTest('tpircS Java olleH', reverse('Hello Java Script')));
