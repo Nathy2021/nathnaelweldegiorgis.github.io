@@ -1,0 +1,61 @@
+.container{   
+    display:grid;
+    grid-template-columns: 400px 400px;
+    width:800px;
+    height:500px;
+    border:1px solid red;
+}
+.container > div{
+    margin-left:10px;
+    padding-bottom:0px;
+}
+#item1{
+    grid-column: 1 / span 2;
+    background-color:rgb(66, 126, 238);
+    font-size:16px;
+    padding-top:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+#item2{
+    grid-column: 1 / span 2;
+    font-size:20px;
+    padding-top:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ input[type="text"], select{
+    height: 30px;
+    width: 350px;
+} 
+#item15{
+    grid-column: 1 / span 2;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+#resetBtn{
+    width:100px;
+    height: 30px;
+    margin: 5px;
+    border:1px solid rgb(8, 8, 104);
+    border-radius: 3px;
+    color: rgb(8, 8, 104);
+}
+#cancelBtn{
+    width:100px;
+    height: 30px;
+    margin: 5px;
+    border:1px solid rgb(230, 67, 67);
+    border-radius: 3px;
+    color: rgb(230, 67, 67);
+}
+#allProductBtn{
+    width:100px;
+    height: 30px;
+    margin: 5px;
+    border:1px solid rgb(61, 136, 32);
+    border-radius: 3px;
+    color: rgb(61, 136, 32);
+}
