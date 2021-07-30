@@ -17,10 +17,10 @@ describe("Sort using the BubbleSort algorithm", () => {
 });
 
 
-describe("Display 'Adam is now teaching Inheritance' from teacher's object", () => {
+describe("Display inheritances from object", () => {
     var him = new Teacher();
     him.initialize("Adam", 45);
-    it("should pass subject as @param and display teacher's name and what he is teaching", () => {
+    it("Passing parameters", () => {
         assert.deepEqual(him.teach("Inheritance"), "Adam is now teaching Inheritance");
     });
 });
