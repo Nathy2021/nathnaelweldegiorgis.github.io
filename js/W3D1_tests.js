@@ -75,7 +75,7 @@ describe("withdraw(value), CheckingAccount", () => {
 });
 
 describe("toString(), CheckingAccount", () => {
-    it("should display the string representation of the CheckingAccount", () => {
+    it("Display the string representation of the CheckingAccount", () => {
         assert.deepEqual(checkAccount.toString(), `Balance of Checking Account 2 after withdrawal is: -500`);
     });
 });
