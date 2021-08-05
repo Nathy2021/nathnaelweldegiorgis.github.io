@@ -24,9 +24,15 @@ $(() => {
                 "click": function () {
                     clearInterval(timerId);
                     circle.hide();
+                },
+                "mouseover": function () {
+                    $(this).fadeTo(0, 0.1).fadeTo(1000, 1);
+                },
+                "mouseleave": function () {
+                    $(this).fade.stop().fadeTo('slow', 1);
                 }
             });
-
+// ..
             if (i % 2 == 0) {
                 circle.css("left", (i * 100) + "px",)
             } else {
