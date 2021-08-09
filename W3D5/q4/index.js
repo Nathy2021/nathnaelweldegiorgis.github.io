@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
             </form> </body> </html>`);
 });
 
-app.use(express.urlencoded()); // the middleware that is used to parse the post body
+app.use(express.urlencoded({ extended: false })); // the middleware that is used to parse the post body
 
 app.post('/result', (req, res) => {
     const name = req.body.nameText;

@@ -40,6 +40,7 @@ app.post('/result', (req, res) => {
     }
     res.send(`Welcome: ${name}, age ${age}`);
 });
+
 console.log(`My server is listening on port ${port}`);
 app.listen(port);
 
