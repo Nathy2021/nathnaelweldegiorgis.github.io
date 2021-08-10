@@ -11,19 +11,25 @@ const port = 3000;
 
 app.use(cookieParser());
 app.use(express.urlencoded());
+app.use((req, res, next) => {
+    if (!req.cookies.container) {
+        req.cookies.container = [];
+    }
+    next();
+});
 
 app.get('/', (req, res) => {
     if (req.cookies.key) {
         res.render('forgetCookie');
     } else {
-        res.render('cookiePage', { cookies: req.cookies.data });
+        res.render('cookiePage', { cookies: req.cookies.container });
     }
 });
 app.post('/addCookie', (req, res) => {
-    if (req.cookies.data === undefined) {
-        req.cookies.data = [];
+    if (req.cookies.container) {
+        req.cookies.container = [];
     } else {
-        req.cookies.data.push({
+        req.cookies.container.push({
             key: req.body.key,
             value: req.body.value,
         });
