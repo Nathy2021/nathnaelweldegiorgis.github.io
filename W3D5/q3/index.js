@@ -4,6 +4,7 @@ const path = require('path');
 let port = 3000;
 app.use(express.urlencoded({ extended: false }));
 app.use('/css', express.static(path.join(__dirname, 'css')));
+
 app.get('/', (req, res) => {
     const date_ob = new Date();
     const hours = date_ob.getHours();
