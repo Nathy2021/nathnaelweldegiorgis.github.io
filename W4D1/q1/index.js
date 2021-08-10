@@ -6,8 +6,8 @@ const path = require('path');
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, "view"));
-app.set('port', process.env.PORT || 9090);
-const port = app.get('port');
+
+const port = 3000;
 
 app.use(cookieParser());
 app.use(express.urlencoded());
