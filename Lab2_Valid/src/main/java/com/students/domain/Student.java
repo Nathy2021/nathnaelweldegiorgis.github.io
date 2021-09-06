@@ -31,7 +31,6 @@ public class Student {
 
 	@NotNull
 	@DateTimeFormat(pattern = "mm/dd/yyyy")
-//	@NotNull
 	@Past
     private Date birthday;
 
