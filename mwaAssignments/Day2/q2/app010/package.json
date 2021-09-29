@@ -1,0 +1,21 @@
+{
+  "name": "app010",
+  "version": "1.0.0",
+  "description": "MEAN Game ",
+  "main": "app010.js",
+  "scripts": {
+    "start": "node app010.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "MEAN",
+    "GAMES"
+  ],
+  "author": "Nathnael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
